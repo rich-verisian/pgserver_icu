@@ -1,12 +1,11 @@
 [project]
-name = "pgserver" # Required
+name = "pgserver-icu" # Required
 version = "0.1.4"  # Required
 description = "Self-contained postgres server for your python applications" # Required
 readme = "README.md" # Optional
 requires-python = ">=3.9"
 license = {file = "LICENSE.txt"}
-urls={repository="https://github.com/orm011/pgserver"}
-authors=[{ name="Oscar Moll", email="orm@csail.mit.edu" }]
+urls={repository="https://github.com/rich-verisian/pgserver-icu"}
 keywords=["postgresql", "pgvector", "pgserver", "rag"]
 dependencies = [
     "fasteners>=0.19",
